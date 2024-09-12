@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: docs
+
+website: 
+  title: "My thoughts"
+  navbar: 
+    left: 
+      - href: peer_review_site.qmd
+      - text: Home
+      - thought1.qmd
+      - thought2.qmd
+
+editor: visual
+
